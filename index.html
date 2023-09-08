@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="panel">
+            <div id="ptop">
+                <div id="start">
+                    <h2>Start</h2>
+                    <div class="outer-circle">
+                        <span class="play-icon">►</span>
+                    </div>
+                </div>
+                <div class="elem">
+                    <h2>Hit</h2>
+                    <div id = "hitVal"class="box">-1</div>
+                </div>
+                <div class="elem">
+                    <h2>Timer</h2>
+                    <div id = "timerVal" class="box">60</div>
+                </div>
+                <div class="elem">
+                    <h2>Score</h2>
+                    <div id="scoreVal" class="box">0</div>
+                </div>
+                <div class="manual">
+                    <h2>How to play ?</h2>
+                    <div class="instructions">
+                        <p class="instructions_data">1. Identify and select numbers from bubbles on the screen.</p>
+                        <p class="instructions_data">2. Match the selected number with the one displayed in "Hit" in the top bar for a 10-point score increase.</p>
+                        <p class="instructions_data">3. Each successful match updates the top bar number and changes all bubble numbers.</p>
+                        <p class="instructions_data">4. Complete the game within a 60-second time limit, aiming for maximum matches to score higher.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="pbtm">
+                <div class="bubble">5</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
